@@ -25,7 +25,8 @@ function resize(){
   console.log(w + " : " + h);
 
   // resizeCanvas(w, h);
-  resizeCanvas(windowWidth, windowHeight);
+  // resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(window.innerWidth, window.innerHeight);
 
 }
 

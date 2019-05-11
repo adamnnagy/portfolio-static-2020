@@ -40,7 +40,7 @@ body {
 .cover-container {
   position: fixed;
   width: 100%;
-  top: 80%;
+  top: 70%;
   z-index: 3;
   /*left: 50%;*/
 }
