@@ -1,5 +1,5 @@
-import Vue from 'vue'
-import routes from './routes'
+// import Vue from 'vue'
+// import routes from './routes'
 
 //routing
 const NotFound = { template: '<p>Page not found</p>' }
@@ -15,22 +15,24 @@ const routes = {
   '/about': About
 }
 
-new Vue ({
+var data = {
+  currentRoute: window.location.pathname,
+  greeting: "Adam Nagy",
+  intro: "filmmaker, developer, visual thinker"
+}
+
+var vm = new Vue ({
   el: '#app',
-  data: {
-    greeting: "Adam Nagy",
-    intro: "filmmaker, developer, visual thinker"
-    currentRoute: window.location.pathname
-  },
-  computed: {
-    ViewComponent () {
-      const matchingView = routes[this.currentRoute]
-      return matchingView
-        ? require('./pages/' + matchingView + '.vue')
-        : require('./pages/404.vue')
-    }
-  },
-  render (h) { return h(this.ViewComponent) }
+  data: data
+  // computed: {
+  //   ViewComponent () {
+  //     const matchingView = routes[this.currentRoute]
+  //     return matchingView
+  //       ? require('./pages/' + matchingView + '.vue')
+  //       : require('./pages/404.vue')
+  //   }
+  // },
+  // render (h) { return h(this.ViewComponent) }
 });
 
 window.addEventListener('popstate', () => {

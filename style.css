@@ -1,7 +1,6 @@
 .sketch-container {
     z-index: -1;
-    position: absolute;
-    top: 5%;
+    position: fixed;
     left: 0;
     height: 100%;
     min-height: 200px;
@@ -13,7 +12,7 @@
 }
 
 #canvas-container {
-  position: absolute;
+  position: fixed;
   z-index: -1;
 
   left: 0;
@@ -43,4 +42,31 @@ body {
   top: 70%;
   z-index: 3;
   /*left: 50%;*/
+}
+
+.button-container {
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+  color: #212529;
+  background-color: #ffffff;
+  margin: 1em;
+  font-size: 20;
+}
+
+.card-text {
+}
+
+.card-year {
+  font-style: italic;
+
+}
+
+.vertical-navbar {
+  height: 100%;
 }
