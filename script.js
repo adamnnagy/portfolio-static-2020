@@ -17,9 +17,10 @@ const routes = {
 
 var data = {
   currentRoute: window.location.pathname,
-  greeting: "Adam Nagy",
-  intro: "filmmaker, developer, visual thinker"
+  greeting: "ADAM NAGY"
 }
+
+
 
 var vm = new Vue ({
   el: '#app',
@@ -38,3 +39,43 @@ var vm = new Vue ({
 window.addEventListener('popstate', () => {
   app.currentRoute = window.location.pathname
 })
+
+//TYPEWRITER SCRIPT
+
+var myIntro = [
+  "filmmaker",
+  "developer",
+  "musician",
+  "puppy-eyed",
+  "happy",
+  "crazy"
+];
+
+var cnt = 0;
+var tmpStr;
+var speed = 100;
+var i = 0;
+
+//changes the string based on myIntro
+
+//typeWriter script
+function typeWriter(txt, i){
+  if (i < txt.length) {
+    document.getElementById("intro").innerHTML += txt.charAt(i);
+    setTimeout(function(){
+      typeWriter(txt, i + 1)}, speed);
+  }
+};
+
+window.addEventListener("load", typeWriter("who am I?", i));
+
+
+window.setInterval(function(){
+  tmpStr = myIntro[cnt % (myIntro.length)]; //gets word, loops through array
+
+  document.getElementById("intro").innerHTML = "";
+  var i = 0
+  //typewriter
+  typeWriter(tmpStr, i);
+  cnt++;
+}, 2000);

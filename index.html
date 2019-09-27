@@ -4,13 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Nagy</title>
+    <title>ADAM NAGY</title>
 
     <!-- Stylesheet -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- override -->
     <link rel="stylesheet" href="style.css">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+    </style>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +29,7 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
 
     <!-- p5js sketch -->
-    <script src="script_p5.js"></script>
+    <!-- <script src="script_p5.js"></script> -->
 
 
   </head>
@@ -35,7 +39,9 @@
     <!-- SKETCH container -->
   <div class="container-fluid sketch-container">
     <div id="canvas-container">
-      <canvas id="defaultCanvas0">
+      <!-- <canvas id="defaultCanvas0"> -->
+      <iframe src="https://player.vimeo.com/video/360565493?autoplay=1&loop=1&autopause=0&muted=1" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <!-- what's this for -->
     </div>
   </div>
 
@@ -44,10 +50,10 @@
   <div id="app">
 
 
-    <main role ="main" class ="inner cover">
+    <main role ="main" class="inner cover">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <h1 class="cover-heading">{{greeting}}</h1>
-      <p class="lead">{{intro}}</p>
+      <p id="intro"></p>
       <div class="container-fluid button-container">
 
           <a href="/projects" class="btn btn-btn-lg btn-secondary">Projects</a>

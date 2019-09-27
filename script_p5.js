@@ -1,3 +1,5 @@
+var boxSize;
+
 //centers the canvas
 function centerCanvas(canvas) {
   var x = (windowWidth - width) / 2;
@@ -23,10 +25,14 @@ function resize(){
   var h = select('#canvas-container').height;
 
   console.log(w + " : " + h);
+  console.log(boxSize);
+
 
   // resizeCanvas(w, h);
   // resizeCanvas(windowWidth, windowHeight);
-  resizeCanvas(window.innerWidth, window.innerHeight);
+  boxSize = windowHeight/8;
+  resizeCanvas(w, h);
+
 
 }
 
@@ -43,7 +49,7 @@ function setup() {
   cnv = createCanvas(window.innerWidth, window.innerHeight, WEBGL);
   //cnv = centerCanvas(cnv);
   cnv.position(x,y);
-  cnv.parent("canvas-container");
+  // cnv.parent("canvas-container");
 
 }
 
@@ -51,13 +57,15 @@ function draw() {
   background(255);
 
   push();
+
+
   rectMode(CENTER);
   rotateX(-0.5);
   rotateY((frameCount + (mouseX-width/2) )* 0.003);
   noFill();
   strokeWeight(2);
   smooth();
-  box(200, 200, 200, 1, 1);
+  box(boxSize, boxSize, boxSize, 1, 1);
   pop();
 
 
