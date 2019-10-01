@@ -2,53 +2,61 @@
 // import routes from './routes'
 
 //routing
-const NotFound = { template: '<p>Page not found</p>' }
-const Home = { template: '<p>home page</p>' }
-const Projects = { template: '<p>project page</p>' }
-const Resume = { template: '<p>resume page</p>' }
-const About = { template: '<p>about page</p>' }
+// const NotFound = { template: '<p>Page not found</p>' }
+// const Home = { template: '<p>home page</p>' }
+// const Projects = { template: '<p>project page</p>' }
+// const Resume = { template: '<p>resume page</p>' }
+// const About = { template: '<p>about page</p>' }
+//
+// const routes = {
+//   '/': Home,
+//   '/projects': Projects,
+//   '/resume': Resume,
+//   '/about': About
+// }
+//
+// var data = {
+//   currentRoute: window.location.pathname,
+//   greeting: "ADAM NAGY"
+// }
+//
+//
+//
+// var vm = new Vue ({
+//   el: '#app',
+//   data: {
+//     currentRoute: window.location.pathname
+//   },
+//   computed: {
+//     ViewComponent () {
+//       return routes[this.currentRoute] || NotFound
+//     }
+//   },
+//   render (h) { return h(this.ViewComponent) }
+// });
 
-const routes = {
-  '/': Home,
-  '/projects': Projects,
-  '/resume': Resume,
-  '/about': About
-}
-
-var data = {
-  currentRoute: window.location.pathname,
-  greeting: "ADAM NAGY"
-}
-
-
-
-var vm = new Vue ({
-  el: '#app',
-  data: data
-  // computed: {
-  //   ViewComponent () {
   //     const matchingView = routes[this.currentRoute]
   //     return matchingView
   //       ? require('./pages/' + matchingView + '.vue')
   //       : require('./pages/404.vue')
   //   }
   // },
-  // render (h) { return h(this.ViewComponent) }
-});
 
-window.addEventListener('popstate', () => {
-  app.currentRoute = window.location.pathname
-})
+// window.addEventListener('popstate', () => {
+//   app.currentRoute = window.location.pathname
+// })
 
 //TYPEWRITER SCRIPT
 
 var myIntro = [
-  "filmmaker",
+  "editor",
+  "director",
+  "VR enthusiast",
   "developer",
-  "musician",
-  "puppy-eyed",
-  "happy",
-  "crazy"
+  "music producer",
+  "problem-solver",
+  "self-learner",
+  "ever-critical"
 ];
 
 var cnt = 0;
@@ -69,6 +77,12 @@ function typeWriter(txt, i){
 
 window.addEventListener("load", typeWriter("who am I?", i));
 
+document.getElementById("projects-btn").addEventListener("click", function() {
+  document.getElementById("projects-btn").innerHTML = "Coming soon!";
+});
+
+
+document.getElementById("intro").addEventListener("click", typeWriter);
 
 window.setInterval(function(){
   tmpStr = myIntro[cnt % (myIntro.length)]; //gets word, loops through array
