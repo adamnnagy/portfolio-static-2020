@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adam Nagy</title>
+    <title>ADAM NAGY</title>
 
     <!-- Stylesheet -->
 
@@ -12,20 +12,25 @@
     <!-- override -->
     <link rel="stylesheet" href="style.css">
 
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
+    </style>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
     <!-- libraries -->
-    <script src="../p5/lib/p5.min.js"></script>
+    <!-- <script src="../p5/lib/p5.min.js"></script>
     <script src="../p5/lib/p5.dom.min.js"></script>
-    <script src="../p5/lib/p5.sound.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="../p5/lib/p5.sound.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <!-- <script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
 
     <!-- p5js sketch -->
-    <script src="script_p5.js"></script>
+    <!-- <script src="script_p5.js"></script> -->
 
 
   </head>
@@ -35,7 +40,9 @@
     <!-- SKETCH container -->
   <div class="container-fluid sketch-container">
     <div id="canvas-container">
-      <canvas id="defaultCanvas0">
+      <!-- <canvas id="defaultCanvas0"> -->
+      <iframe src="https://player.vimeo.com/video/360565493?autoplay=1&loop=1&autopause=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <!-- what's this for -->
     </div>
   </div>
 
@@ -44,14 +51,15 @@
   <div id="app">
 
 
-    <main role ="main" class ="inner cover">
+    <main role ="main" class="inner cover">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <h1 class="cover-heading">{{greeting}}</h1>
-      <p class="lead">{{intro}}</p>
+      <h1 class="cover-heading">ADAM NAGY</h1>
+      <p id="intro"></p>
       <div class="container-fluid button-container">
 
-          <a href="/projects" class="btn btn-btn-lg btn-secondary">Projects</a>
-          <a href="/about" class="btn btn-btn-lg btn-secondary">About Me</a>
+          <button id="projects-btn" class="btn btn-btn-lg btn-secondary">Projects</button>
+          <!-- <a href="/about/AdamNagy.pdf" class="btn btn-btn-lg btn-secondary">Projects</a> -->
+          <a href="/about/AdamNagy.pdf" class="btn btn-btn-lg btn-secondary">About Me</a>
 
       </div>
     </div>
