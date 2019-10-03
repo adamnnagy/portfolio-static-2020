@@ -1,51 +1,3 @@
-// import Vue from 'vue'
-// import routes from './routes'
-
-//routing
-// const NotFound = { template: '<p>Page not found</p>' }
-// const Home = { template: '<p>home page</p>' }
-// const Projects = { template: '<p>project page</p>' }
-// const Resume = { template: '<p>resume page</p>' }
-// const About = { template: '<p>about page</p>' }
-//
-// const routes = {
-//   '/': Home,
-//   '/projects': Projects,
-//   '/resume': Resume,
-//   '/about': About
-// }
-//
-// var data = {
-//   currentRoute: window.location.pathname,
-//   greeting: "ADAM NAGY"
-// }
-//
-//
-//
-// var vm = new Vue ({
-//   el: '#app',
-//   data: {
-//     currentRoute: window.location.pathname
-//   },
-//   computed: {
-//     ViewComponent () {
-//       return routes[this.currentRoute] || NotFound
-//     }
-//   },
-//   render (h) { return h(this.ViewComponent) }
-// });
-
-  //     const matchingView = routes[this.currentRoute]
-  //     return matchingView
-  //       ? require('./pages/' + matchingView + '.vue')
-  //       : require('./pages/404.vue')
-  //   }
-  // },
-
-// window.addEventListener('popstate', () => {
-//   app.currentRoute = window.location.pathname
-// })
-
 //TYPEWRITER SCRIPT
 
 var myIntro = [
@@ -75,21 +27,30 @@ function typeWriter(txt, i){
   }
 };
 
-window.addEventListener("load", typeWriter("who am I?", i));
-
-document.getElementById("projects-btn").addEventListener("click", function() {
-  document.getElementById("projects-btn").innerHTML = "Coming soon!";
-});
-
-
-document.getElementById("intro").addEventListener("click", typeWriter);
-
-window.setInterval(function(){
+function resetTypeWriter(){
   tmpStr = myIntro[cnt % (myIntro.length)]; //gets word, loops through array
 
   document.getElementById("intro").innerHTML = "";
   var i = 0
   //typewriter
-  typeWriter(tmpStr, i);
   cnt++;
+};
+
+//first run
+window.addEventListener("load", typeWriter("who am I?", i));
+
+//projects button
+document.getElementById("projects-btn").addEventListener("click", function() {
+  document.getElementById("projects-btn").innerHTML = "Coming soon!";
+});
+
+//if clicked then cycles through
+document.getElementById("intro").addEventListener("click", function(){
+  resetTypeWriter();
+  typeWriter(tmpStr, i);
+});
+
+window.setInterval(function(){
+  resetTypeWriter();
+  typeWriter(tmpStr, i);
 }, 2000);
