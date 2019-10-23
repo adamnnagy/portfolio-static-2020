@@ -1,3 +1,5 @@
+
+
 //TYPEWRITER SCRIPT
 
 var myIntro = [
@@ -21,7 +23,7 @@ var i = 0;
 //typeWriter script
 function typeWriter(txt, i){
   if (i < txt.length) {
-    document.getElementById("intro").innerHTML += txt.charAt(i);
+    $("intro").innerHTML += txt.charAt(i);
     setTimeout(function(){
       typeWriter(txt, i + 1)}, speed);
   }
@@ -30,7 +32,7 @@ function typeWriter(txt, i){
 function resetTypeWriter(){
   tmpStr = myIntro[cnt % (myIntro.length)]; //gets word, loops through array
 
-  document.getElementById("intro").innerHTML = "";
+  $("intro").innerHTML = "";
   var i = 0
   //typewriter
   cnt++;
@@ -39,13 +41,17 @@ function resetTypeWriter(){
 //first run
 window.addEventListener("load", typeWriter("who am I?", i));
 
+
+
+  
+
 //projects button
-document.getElementById("projects-btn").addEventListener("click", function() {
-  document.getElementById("projects-btn").innerHTML = "Coming soon!";
+$("projects-btn").click(function() {
+  $("projects-btn").innerHTML = "Coming soon!";
 });
 
 //if clicked then cycles through
-document.getElementById("intro").addEventListener("click", function(){
+$("intro").click(function(){
   resetTypeWriter();
   typeWriter(tmpStr, i);
 });
@@ -54,3 +60,32 @@ window.setInterval(function(){
   resetTypeWriter();
   typeWriter(tmpStr, i);
 }, 2000);
+
+
+
+
+
+// $(document).ready(function(){
+//   $(".tile").hover(
+//     function(){
+//     console.log("hovering");
+//     $(this).find(".tile-overlay").animate({opacity: 0.3, scale: 0.5}, 30);
+//     $(this).find(".tile-text").animate({opacity: 1}, 30);
+//     // $(this).find(".tile-text").css("opacity", "1");
+//   }, function() {
+//     $(this).find(".tile-overlay").css({"opacity": "0", "scale": "0"});
+//     $(this).find(".tile-text").css("opacity", "0");
+//   }
+//   );
+
+ 
+
+//   $(".glitch-title").click(function(){
+//     $(this).hide();
+//   })
+  
+// });
+
+ 
+
+

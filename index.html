@@ -1,17 +1,21 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADAM NAGY</title>
+    <meta name="keywords" content="Adam Nagy", "adam nagy", "Nagy", "nagy" >
+    <meta name="description" content="Adam Nagy portfolio and personal website" >
+    <title>Adam Nagy</title>
+
 
     <!-- Stylesheet -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- override -->
-    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap override -->
+    <link rel="stylesheet" href="css/style.css">
 
+    <!-- font -->
     <style>
     @import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
     </style>
@@ -24,8 +28,6 @@
     <!-- <script src="../p5/lib/p5.min.js"></script>
     <script src="../p5/lib/p5.dom.min.js"></script>
     <script src="../p5/lib/p5.sound.min.js"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-    <!-- <script src="https://unpkg.com/vue-router@3.0.1/dist/vue-router.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
 
@@ -38,31 +40,34 @@
   <body class="text-center">
 
     <!-- SKETCH container -->
-  <div class="container-fluid sketch-container">
-    <div id="canvas-container">
+  <!-- <div class="container-fluid sketch-container"> -->
+    <!-- <div id="canvas-container"> -->
       <!-- <canvas id="defaultCanvas0"> -->
-      <iframe src="https://player.vimeo.com/video/360565493?autoplay=1&loop=1&autopause=0&muted=1" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="container mt-5">
+          
+          <iframe src="https://player.vimeo.com/video/360565493?autoplay=1&loop=1&autopause=0&muted=1" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+        </div>
         <!-- what's this for -->
-    </div>
-  </div>
+    <!-- </div> -->
+  <!-- </div> -->
 
-  <!-- VUE.js markup structure-->
+  
 
-  <div id="app">
+    <main class="inner cover">
+      
 
-
-    <main role ="main" class="inner cover">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="row cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <h1 class="cover-heading">ADAM NAGY</h1>
       <p id="intro"></p>
       <div class="container-fluid button-container">
 
-          <button id="projects-btn" class="btn btn-btn-lg btn-secondary">Projects</button>
-          <!-- <a href="/about/AdamNagy.pdf" class="btn btn-btn-lg btn-secondary">Projects</a> -->
+          <a href="/projects/" class="btn btn-btn-lg btn-secondary">Projects</a>
           <a href="/about/AdamNagy.pdf" class="btn btn-btn-lg btn-secondary">About Me</a>
-
+ 
       </div>
     </div>
+
     </main>
 
   </body>
@@ -71,6 +76,4 @@
 </html>
 
 
-<!-- Vue.js app -->
-
-<script src="script.js"></script>
+<script src="script/script.js"></script>
