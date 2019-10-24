@@ -103,13 +103,13 @@ body {
 .tile-text {
   position: absolute;
   font-weight: 800;
-  font-size: 12px;
+  font-size: 14px;
   top: 50%;
   left: 50%;
   text-align: center;
   text-transform: uppercase;
   color: white;
-  opacity: 0.5;
+  opacity: 0;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   transition: .3s ease-in;
