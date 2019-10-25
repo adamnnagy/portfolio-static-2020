@@ -12,132 +12,126 @@
 }
 
 #canvas-container {
-  position: fixed;
-  z-index: -1;
-
-  left: 0;
-  top: 0;
-
-  height: 100%;
-  width: 100%;
-  min-height: 200px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
+    position: fixed;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
 }
 
 canvas {
-  width: 100%;
+    width: 100%;
 }
 
 body {
-  font-family: 'Courier New', serif;
+    font-family: 'Courier New', serif;
 }
 
 .cover-container {
-  position: relative;
-  width: 100%;
-  top: 70%;
-  z-index: 3;
-  /*left: 50%;*/
+    position: relative;
+    width: 100%;
 }
 
-.button-container {
-    width: 50%;
-    flex-direction: row;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.home-title {
+    font-weight: bolder;
+}
+
+.logo {
+    width: auto;
+    height: 32px;
 }
 
 .btn {
-  color: #212529;
-  background-color: #ffffff;
-  margin: 1em;
-  font-size: 20;
+    color: #212529;
+    background-color: #ffffff;
+    margin: 1em;
+    font-size: 20;
 }
 
 .glitch-title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 600;
-	font-family: 'Courier New', Courier, monospace;
-	color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
 }
 
-
 .glitch-container {
-  position: relative;
-  display: flex;
+    position: relative;
+    display: flex;
 }
 
 .tile {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  margin: 1em;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
 }
 
 .tile-img {
-  position: block;
-  height: 15em;
-  width: auto;
+    position: block;
+    height: 15em;
+    width: auto;
 }
 
 .tile-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .2s ease-in;
-  transform: scale(0);
-  background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease-in;
+    transform: scale(0);
+    background-color: rgb(0, 0, 0);
 }
 
 .tile-text {
-  position: absolute;
-  font-weight: 800;
-  font-size: 14px;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  transition: .2s ease-in;
+    position: absolute;
+    font-weight: 800;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .2s ease-in;
 }
 
 .tile:hover .tile-overlay {
-  opacity: 0.3;
-  transform: scale(1);
+    opacity: 0.3;
+    transform: scale(1);
 }
 
 .tile:hover .tile-text {
-  opacity: 1;
-  color: white;
+    opacity: 1;
+    color: white;
 }
 
 a:hover {
-  text-decoration: none;
-  /* color:rgb(255, 255, 255); */
+    text-decoration: none;
+    /* color:rgb(255, 255, 255); */
 }
 
 .project-img {
-  width: 300px;
-  height: auto;
+    width: 300px;
+    height: auto;
 }
 
 .carousel-caption {
-  color: black;
-  background-color: whitesmoke;
-  border-width: 2px;;
+    color: black;
+    background-color: whitesmoke;
+    border-width: 2px;
+    ;
 }
-
