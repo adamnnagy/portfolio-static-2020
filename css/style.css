@@ -37,9 +37,9 @@ body {
 }
 
 .cover-container {
-  position: fixed;
+  position: relative;
   width: 100%;
-  top: 60%;
+  top: 70%;
   z-index: 3;
   /*left: 50%;*/
 }

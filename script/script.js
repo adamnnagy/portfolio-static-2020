@@ -23,7 +23,7 @@ var i = 0;
 //typeWriter script
 function typeWriter(txt, i) {
   if (i < txt.length) {
-    $("intro").innerHTML += txt.charAt(i);
+    $("#intro").innerHTML += txt.charAt(i);
     setTimeout(function () {
       typeWriter(txt, i + 1)
     }, speed);
@@ -33,7 +33,7 @@ function typeWriter(txt, i) {
 function resetTypeWriter() {
   tmpStr = myIntro[cnt % (myIntro.length)]; //gets word, loops through array
 
-  $("intro").innerHTML = "";
+  $("#intro").innerHTML = "";
   var i = 0
   //typewriter
   cnt++;
