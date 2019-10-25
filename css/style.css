@@ -33,7 +33,7 @@ canvas {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Courier New', serif;
 }
 
 .cover-container {
@@ -141,10 +141,3 @@ a:hover {
   border-width: 2px;;
 }
 
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
-
-  display: flex;
-  align-items: center;
-}
