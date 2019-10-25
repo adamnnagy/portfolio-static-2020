@@ -122,11 +122,12 @@ body {
 
 .tile:hover .tile-text {
   opacity: 1;
+  color: white;
 }
 
 a:hover {
   text-decoration: none;
-  color:rgb(255, 255, 255);
+  /* color:rgb(255, 255, 255); */
 }
 
 .project-img {
@@ -136,5 +137,14 @@ a:hover {
 
 .carousel-caption {
   color: black;
-  background-color: white;
+  background-color: whitesmoke;
+  border-width: 2px;;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
 }

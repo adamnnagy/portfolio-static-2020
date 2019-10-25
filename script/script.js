@@ -21,15 +21,16 @@ var i = 0;
 //changes the string based on myIntro
 
 //typeWriter script
-function typeWriter(txt, i){
+function typeWriter(txt, i) {
   if (i < txt.length) {
     $("intro").innerHTML += txt.charAt(i);
-    setTimeout(function(){
-      typeWriter(txt, i + 1)}, speed);
+    setTimeout(function () {
+      typeWriter(txt, i + 1)
+    }, speed);
   }
 };
 
-function resetTypeWriter(){
+function resetTypeWriter() {
   tmpStr = myIntro[cnt % (myIntro.length)]; //gets word, loops through array
 
   $("intro").innerHTML = "";
@@ -43,24 +44,23 @@ window.addEventListener("load", typeWriter("who am I?", i));
 
 
 
-  
+
 
 //projects button
-$("projects-btn").click(function() {
+$("projects-btn").click(function () {
   $("projects-btn").innerHTML = "Coming soon!";
 });
 
 //if clicked then cycles through
-$("intro").click(function(){
+$("intro").click(function () {
   resetTypeWriter();
   typeWriter(tmpStr, i);
 });
 
-window.setInterval(function(){
+window.setInterval(function () {
   resetTypeWriter();
   typeWriter(tmpStr, i);
 }, 2000);
-
 
 
 
@@ -78,14 +78,14 @@ window.setInterval(function(){
 //   }
 //   );
 
- 
+
 
 //   $(".glitch-title").click(function(){
 //     $(this).hide();
 //   })
-  
+
 // });
 
- 
+
 
 
