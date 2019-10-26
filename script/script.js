@@ -80,7 +80,7 @@ $(document).ready(function(){
 function windowFadeIn() {
   $( ".container, .container-fluid").animate({
     opacity: 1,
-  }, 500, function() {
+  }, 600, function() {
     // Animation complete.
   });
 }
