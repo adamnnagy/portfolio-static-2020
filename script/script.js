@@ -62,6 +62,20 @@ window.setInterval(function () {
   typeWriter(tmpStr, i);
 }, 2000);
 
+$(document).ready(function(){
+  $(".cover-container").css({"opacity": "0"});
+  $(".container").css({"opacity": "0"});
+  $( ".cover-container" ).animate({
+    opacity: 1,
+  }, 500, function() {
+    // Animation complete.
+  });
+  $( ".container" ).animate({
+    opacity: 1,
+  }, 300, function() {
+    // Animation complete.
+  });
+})
 
 
 
