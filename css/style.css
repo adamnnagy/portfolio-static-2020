@@ -12,6 +12,14 @@ body {
     font-family: 'Courier New', serif;
 }
 
+video {
+    z-index: -1;
+}
+
+nav {
+    z-index: 50;
+}
+
 .cover-container {
     width: 100%;
     position: fixed;

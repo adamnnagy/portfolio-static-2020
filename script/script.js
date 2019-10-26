@@ -63,19 +63,35 @@ window.setInterval(function () {
 }, 2000);
 
 $(document).ready(function(){
-  $(".cover-container").css({"opacity": "0"});
-  $(".container").css({"opacity": "0"});
-  $( ".cover-container" ).animate({
+  $(".cover-container, .container, .container-fluid").css({"opacity": "0"});
+   
+  if($(".cover-container").length) {
+    $( ".cover-container").animate({
+      opacity: 1,
+    }, 1500, function() {
+      windowFadeIn();
+    });
+  } else {
+    windowFadeIn();
+  }
+  
+})
+
+function windowFadeIn() {
+  $( ".container, .container-fluid").animate({
     opacity: 1,
   }, 500, function() {
     // Animation complete.
   });
-  $( ".container" ).animate({
-    opacity: 1,
-  }, 300, function() {
+}
+
+$(window).bind('beforeunload', function(){ 
+	$( ".cover-container, .container, .container-fluid").animate({
+    opacity: 0,
+  }, 500, function() {
     // Animation complete.
   });
-})
+});
 
 
 
