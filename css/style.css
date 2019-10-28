@@ -22,10 +22,15 @@ nav {
     z-index: 3;
 }
 
+.row {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 .cover-container {
     width: 100%;
     position: fixed;
-    bottom: 50%;
+    bottom: 30%;
     right: 0;
     /* display: flex;
     justify-content: center; */
