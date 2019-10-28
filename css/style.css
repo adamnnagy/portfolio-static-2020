@@ -1,0 +1,137 @@
+#myVideo {
+    opacity: 0.6;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+body {
+    font-family: 'Courier New', serif;
+}
+
+video {
+    z-index: -1;
+}
+
+nav {
+    z-index: 3;
+}
+
+.row {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.cover-container {
+    width: 100%;
+    position: fixed;
+    bottom: 30%;
+    right: 0;
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+}
+
+.home-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+.logo {
+    width: auto;
+    height: 32px;
+}
+
+.btn {
+    color: #212529;
+    background-color: #ffffff;
+    margin: 1em;
+    font-size: 20;
+}
+
+.glitch-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+}
+
+.glitch-container {
+    position: relative;
+    display: flex;
+}
+
+.tile {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+.tile-img {
+    position: block;
+    height: 15em;
+    width: auto;
+}
+
+.tile-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease-in;
+    transform: scale(0);
+    background-color: rgb(0, 0, 0);
+}
+
+.tile-text {
+    position: absolute;
+    font-weight: 800;
+    font-size: 14px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: .2s ease-in;
+}
+
+.tile:hover .tile-overlay {
+    opacity: 0.3;
+    transform: scale(1);
+}
+
+.tile:hover .tile-text {
+    opacity: 1;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    /* color:rgb(255, 255, 255); */
+}
+
+.project-img {
+    width: 300px;
+    height: auto;
+}
+
+.carousel-caption {
+    color: black;
+    background-color: whitesmoke;
+    border-width: 2px;
+    ;
+}
