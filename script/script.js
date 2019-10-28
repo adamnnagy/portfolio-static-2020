@@ -85,10 +85,11 @@ function windowFadeIn() {
   });
 }
 
-$(window).bind('beforeunload', function(){ 
+$(window).on('unload', function(){ 
+
 	$( ".cover-container, .container, .container-fluid").animate({
     opacity: 0,
-  }, 500, function() {
+  }, 300, function() {
     // Animation complete.
   });
 });
