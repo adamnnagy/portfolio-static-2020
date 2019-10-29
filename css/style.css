@@ -22,10 +22,7 @@ nav {
     z-index: 3;
 }
 
-.row {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
+
 
 .cover-container {
     width: 100%;
@@ -49,7 +46,6 @@ nav {
 
 .btn {
     color: #212529;
-    background-color: #ffffff;
     margin: 1em;
     font-size: 20;
 }
