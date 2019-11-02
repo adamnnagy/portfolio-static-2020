@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Courier New', serif;
+    font-family: 'Roboto Mono',  monospace;
 }
 
 video {
@@ -50,18 +50,6 @@ nav {
     font-size: 20;
 }
 
-.glitch-title {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(0, 0, 0);
-}
-
-.glitch-container {
-    position: relative;
-    display: flex;
-}
 
 .tile {
     position: relative;
