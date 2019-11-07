@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://adamnagy.space/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/Linkedin_logo_64.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/GitHub-Mark-64px.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/mail_logo_64.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/showreel/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/showreel_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/labocine_logo_400.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/shane_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/24X_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/free_shipping_400.jpg</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/edes_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/puppet_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/gazelle_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/filmmaking_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/momo_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/im_logo.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/Linkedin_logo_64.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/GitHub-Mark-64px.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/mail_logo_64.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/shane/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/momo/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_shivani.png</image:loc>
+      <image:title>Second slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_dipesh.png</image:loc>
+      <image:title>First slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_sunoj.png</image:loc>
+      <image:title>Third slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_irina.png</image:loc>
+      <image:title>Second slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_base.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_hills.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_plains.png</image:loc>
+      <image:caption />
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/momo_mountains.png</image:loc>
+      <image:caption />
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/im/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/im_01.jpeg</image:loc>
+      <image:title>inspiration</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/puppet/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/puppet%20gene.jpg</image:loc>
+      <image:title>First slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/puppet%20gene_02.jpg</image:loc>
+      <image:title>Second slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/puppet%20gene_03.jpg</image:loc>
+      <image:title>Third slide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/gazelle/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/filmmaking/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/filmmaking_01_web.JPG.png</image:loc>
+      <image:title>First slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/filmmaking_03.JPG.png</image:loc>
+      <image:title>Third slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/filmmaking_04.png</image:loc>
+      <image:title>Fourth slide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/labocine/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/about/AdamNagy.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/edes/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/edes_01.png</image:loc>
+      <image:title>First slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/edes_02.png</image:loc>
+      <image:title>Second slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/edes_03.png</image:loc>
+      <image:title>Third slide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/freeshipping/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/logo/logo.gif</image:loc>
+      <image:title>logo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/freeshipping_map_screenshot_01_web.jpg.png</image:loc>
+      <image:title>First slide</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://adamnagy.space/media/freeshipping_map_screenshot_02_web.jpg.png</image:loc>
+      <image:title>Second slide</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://adamnagy.space/projects/momo/rulebook.pdf</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
+<!--<guid value="f4a3677b-f2c4-4d0b-9868-a4d84bc63afc" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
