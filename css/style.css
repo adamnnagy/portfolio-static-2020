@@ -11,11 +11,17 @@
 }
 
 body {
-    font-family: 'Roboto Mono',  monospace;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
 }
 
 video {
     z-index: -1;
+}
+#navbarNav {
+
+    font-weight: 600;
+
 }
 
 nav {
@@ -44,7 +50,7 @@ mark {
     font-weight: bolder;
 }
 
-.logo {
+.logo > img {
     width: auto;
     height: 32px;
 }
@@ -66,6 +72,7 @@ mark {
     position: block;
     height: 15em;
     width: auto;
+    border-radius: 1em;
 }
 
 .tile-overlay {
@@ -83,7 +90,7 @@ mark {
 
 .tile-text {
     position: absolute;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 14px;
     top: 50%;
     left: 50%;
@@ -97,6 +104,7 @@ mark {
 }
 
 .tile:hover .tile-overlay {
+    border-radius: 1em;
     opacity: 0.35;
 }
 
