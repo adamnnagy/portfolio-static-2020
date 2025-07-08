@@ -34,11 +34,11 @@ mark {
 .cover-container {
 	width: 100%;
 	position: fixed;
-	bottom: 30%;
+	bottom: 50%;
 	right: 0;
-	/* display: flex;
-    justify-content: center; */
-	/* align-items: center; */
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home-title {
