@@ -7,7 +7,7 @@ In the future I am considering SEO optimisation and more interactivity.
 To Dos: 
 
 [] update projects page
-    [] grid
+    [] grid for projects
     [] clear irrelevant projects
     [] add new ones
     [] add more info to ones that I'd like to keep
